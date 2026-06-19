@@ -2,7 +2,7 @@
 $host="localhost";
 $username="root";
 $password=null;
-$database="discuss";
+$database="phpdiscuss";
 
 $conn=new mysqli($host,$username,$password,$database);
 
