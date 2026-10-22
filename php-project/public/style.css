@@ -30,3 +30,8 @@ a{
     display: flex;
     justify-content: space-between;
 }
+/* WHY: the "a { color: skyblue !important }" rule at the top would make this
+   button's text light blue on a blue background; white keeps it readable. */
+.ask-btn{
+    color: #fff !important;
+}
